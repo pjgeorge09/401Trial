@@ -39,7 +39,7 @@ public class cmsc401 {
 		}	
 		
 		
-		input = sc.nextLine(); // Prompt user for next line        IF WHILE Q LOOP NEEDS TO BE TRASHED, DELETE THIS
+		input = sc.nextLine(); // Prompt user for next line
 	}
 	sc.close(); //Close scanner for resource leak
 	
