@@ -16,7 +16,7 @@ public class cmsc401 {
 		if(input.startsWith("A")) {  //--------------- For A commands
 			Scanner lineScanner = new Scanner(input);
 			lineScanner.next(); //Skips initial identifying letter to allow integers only. Error if multiple letters (No exception thrown due to project specs)
-			int count = 0;
+			int count = 0; //change
 			
 			//A loot to assign all subsequent integers following the identifying letter to a space in local arrayList, counts usage
 			while(lineScanner.hasNext()) {    
